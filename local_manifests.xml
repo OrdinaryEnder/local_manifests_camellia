@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="TogoFire" fetch="https://github.com/TogoFire" clone-depth="1" />
+    <remote name="xiaomi-mediatek-devs" fetch="https://github.com/xiaomi-mediatek-devs" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="dm700-devs" fetch="https://github.com/dm700-devs" clone-depth="1" />
+    <remote name="OrdinaryEnder" fetch="https://github.com/OrdinaryEnder" clone-depth="1" />
+    <remote name="PQEnablers-Devices" fetch="https://github.com/PQEnablers-Devices" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/xiaomi/camellia-kernel" name="device_xiaomi_camellia-kernel" remote="dm700-devs" />
+
+    <!-- Device - Common -->
+
+    <!-- Kernel -->
+
+    <!-- Vendor -->
+    <project path="vendor/xiaomi/camellia" name="vendor_xiaomi_camellia" remote="dm700-devs" revision="fourteen" />
+
+    <!-- Vendor - Common -->
+
+    <!-- Hardware -->
+    <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LineageOS" revision="lineage-21" />
+    <project path="hardware/mediatek" name="android_hardware_mediatek" remote="PQEnablers-Devices" revision="lineage-21" />
+
+    <!-- Other Repos -->
+    <project path="packages_apps_VIPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" />
+    <project path="device_xiaomi_camellia" name="device_xiaomi_camellia" remote="OrdinaryEnder" revision="fourteen" />
+    <project path="lineage-21" name="android_device_mediatek_sepolicy_vndr" remote="xiaomi-mediatek-devs" />
+
+</manifest>
