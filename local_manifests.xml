@@ -14,12 +14,11 @@
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/xiaomi/camellia-kernel" name="device_xiaomi_camellia-kernel" remote="dm700-devs" />
-
+    <project path="device_xiaomi_camellia" name="device_xiaomi_camellia" remote="OrdinaryEnder" revision="fourteen" />
     <!-- Device - Common -->
 
     <!-- Kernel -->
-
+    <project path="device/xiaomi/camellia-kernel" name="device_xiaomi_camellia-kernel" remote="dm700-devs" />
     <!-- Vendor -->
     <project path="vendor/xiaomi/camellia" name="vendor_xiaomi_camellia" remote="dm700-devs" revision="fourteen" />
 
@@ -31,7 +30,7 @@
 
     <!-- Other Repos -->
     <project path="packages_apps_VIPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="TogoFire" />
-    <project path="device_xiaomi_camellia" name="device_xiaomi_camellia" remote="OrdinaryEnder" revision="fourteen" />
+   
     <project path="lineage-21" name="android_device_mediatek_sepolicy_vndr" remote="xiaomi-mediatek-devs" />
 
 </manifest>
